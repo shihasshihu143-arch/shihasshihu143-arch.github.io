@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shihas & Afiya | Wedding</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Great+Vibes&display=swap" rel="stylesheet">
+
+<style>
+* { box-sizing:border-box; }
+
+body {
+  margin:0;
+  background:#270b15;
+  color:#e8d3a0;
+  font-family:'Cormorant Garamond',serif;
+  text-align:center;
+}
+
+.page {
+  min-height:100vh;
+  padding:35px 17px;
+  background:
+    radial-gradient(ellipse at center,#5a2030,#270b15 75%);
+}
+
+.frame {
+  max-width:480px;
+  margin:auto;
+  border:1px solid #bd9955;
+  padding:12px;
+}
+
+.inner {
+  border:1px solid #bd9955;
+  padding:35px 16px;
+}
+
+.small {
+  letter-spacing:4px;
+  font-size:12px;
+}
+
+h1 {
+  font-family:'Great Vibes',cursive;
+  font-size:55px;
+  font-weight:400;
+  line-height:1.3;
+  color:#e8c982;
+  margin:20px 0;
+}
+
+h2 {
+  font-size:25px;
+  font-weight:500;
+  letter-spacing:2px;
+}
+
+.gold { color:#e8c982; }
+
+.line {
+  width:75%;
+  border-top:1px solid #bd9955;
+  margin:25px auto;
+}
+
+p {
+  font-size:19px;
+  line-height:1.6;
+}
+
+.date {
+  font-size:27px;
+  letter-spacing:2px;
+}
+
+.photos {
+  display:grid;
+  gap:15px;
+  margin:25px 0;
+}
+
+.photos img {
+  width:100%;
+  max-height:430px;
+  object-fit:cover;
+  border:2px solid #bd9955;
+}
+
+button {
+  background:#c5a263;
+  color:#35111c;
+  border:0;
+  padding:13px 25px;
+  font-family:inherit;
+  font-size:17px;
+  cursor:pointer;
+  margin:12px;
+}
+
+footer {
+  margin-top:35px;
+  font-family:'Great Vibes',cursive;
+  font-size:30px;
+}
+</style>
+</head>
+
+<body>
+<div class="page">
+<div class="frame">
+<div class="inner">
+
+<div class="small">✦ WITH THE BLESSINGS OF ALLAH ✦</div>
+
+<p class="gold">Together with their families</p>
+<h2>Joyfully Invite You To Celebrate</h2>
+
+<div class="line"></div>
+
+<p class="small">THE WEDDING OF</p>
+
+<h1>Shihas</h1>
+<p class="gold">AND</p>
+<h1>Afiya</h1>
+
+<div class="line"></div>
+
+<p>Two hearts, one beautiful journey.</p>
+
+<div class="photos">
+<img src="couple1.jpg" alt="Shihas and Afiya">
+<img src="couple2.jpg" alt="Wedding memories">
+</div>
+
+<div class="line"></div>
+
+<p class="small">SAVE THE DATE</p>
+<h2 class="date">11 JANUARY 2027</h2>
+
+<div class="line"></div>
+
+<h2 class="gold">NIKKAH & WEDDING RECEPTION</h2>
+
+<p>
+KTCT Auditorium
+</p>
+
+<p>
+The Nikkah ceremony and wedding celebration
+will take place at the same venue.
+</p>
+
+<div class="line"></div>
+
+<p>
+Your gracious presence and blessings
+will make our celebration truly special.
+</p>
+
+<footer>With Love, Shihas & Afiya</footer>
+
+<button onclick="document.getElementById('music').play()">
+♫ Play Music
+</button>
+
+<button onclick="document.getElementById('music').pause()">
+Ⅱ Pause Music
+</button>
+
+<audio id="music" loop>
+<source src="song.mp3" type="audio/mpeg">
+</audio>
+
+</div>
+</div>
+</div>
+</body>
+</html>
